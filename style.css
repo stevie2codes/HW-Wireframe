@@ -4,6 +4,7 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: 0 auto;
 }
 header,
 nav,
@@ -29,27 +30,30 @@ header {
     border: 1px solid black;
     margin: 10px auto;
     width: 70%;
-    height: 70px;  
+    padding: 40px;  
     text-align: center;
 }
 nav{
     border: 1px solid black;
     margin: 10px auto;
     width: 70%;
-    height: 70px;
+    padding: 40px;
     text-align:center;
 }
 
 .container{
-    width:70%;
+    width:78.5%;
     margin: 0 auto;
     clear: both;
     display: flex;
+    
    
 }
 section{
+    
+    padding-top: 40px;
     border: 1px solid black;
-    width: 48%;
+    width: 47%;
     margin-right: 5px;  
     text-align: center; 
 }
@@ -58,13 +62,36 @@ aside {
     border: 1px solid black;
     padding: 20px;
     width: 48%; 
-    margin-left: 5px;   
+    margin-left: 5px; 
+    text-align: center;  
+}
+
+article{
+    border: 1px solid black;
+    display:block;
+    margin: 10px 10px;
+}
+.section_1{
+    padding: 10px;
+    width: 80%;
+    margin: 10px 10px 10px 20px;
+}
+
+.section_2 {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 10px 10px 20px;
+    
 
 }
+
+
+
+
 footer{
     border: 1px solid black;
     margin: 10px auto;
     width: 70%;
-    height: 70px;
-    text-align:center;
+    padding: 40px;
+    text-align: center;
 }
